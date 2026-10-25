@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Tool HUD",
   "description": "Affiche un HUD de l'objet tenu en main principale, déplaçable et redimensionnable.",
-  "authors": ["Toi"],
+  "authors": ["theo7117"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
