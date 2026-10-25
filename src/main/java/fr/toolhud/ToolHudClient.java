@@ -35,8 +35,8 @@ public class ToolHudClient implements ClientModInitializer {
 
         ClientTickEvents.END_CLIENT_TICK.register(mc -> {
             while (openSettingsKey.consumeClick()) {
-                if (mc.player != null && mc.screen == null) {
-                    mc.setScreen(new ToolHudSettingsScreen());
+                if (mc.player != null && mc.gui.screen() == null) {
+                    mc.gui.setScreen(new ToolHudSettingsScreen());
                 }
             }
             while (toggleKey.consumeClick()) {
@@ -50,8 +50,8 @@ public class ToolHudClient implements ClientModInitializer {
                 Identifier.fromNamespaceAndPath(MOD_ID, "tool_hud"),
                 (graphics, deltaTracker) -> {
                     Minecraft mc = Minecraft.getInstance();
-                    if (!cfg.enabled || mc.player == null || mc.options.hideGui
-                            || mc.screen instanceof ToolHudSettingsScreen) {
+                    if (!cfg.enabled || mc.player == null || mc.gui.hud.isHidden()
+                            || mc.gui.screen() instanceof ToolHudSettingsScreen) {
                         return;
                     }
                     ItemStack stack = mc.player.getMainHandItem();
