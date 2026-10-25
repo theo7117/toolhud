@@ -1,0 +1,15 @@
+{
+  "key.category.toolhud.main": "Tool HUD",
+  "key.toolhud.settings": "Open HUD settings",
+  "key.toolhud.toggle": "Toggle HUD",
+  "toolhud.on": "On",
+  "toolhud.off": "Off",
+  "toolhud.settings.title": "Tool HUD Settings",
+  "toolhud.settings.hint": "Drag the HUD with the mouse · scroll over it to resize",
+  "toolhud.settings.enabled": "HUD enabled",
+  "toolhud.settings.lore": "Show lore",
+  "toolhud.settings.durability": "Show durability",
+  "toolhud.settings.background": "Background",
+  "toolhud.settings.scale": "Scale: %s",
+  "toolhud.settings.reset": "Reset"
+}

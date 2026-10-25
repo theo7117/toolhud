@@ -1,0 +1,15 @@
+{
+  "key.category.toolhud.main": "Tool HUD",
+  "key.toolhud.settings": "Ouvrir les paramètres du HUD",
+  "key.toolhud.toggle": "Activer/désactiver le HUD",
+  "toolhud.on": "Oui",
+  "toolhud.off": "Non",
+  "toolhud.settings.title": "Paramètres du Tool HUD",
+  "toolhud.settings.hint": "Glisse le HUD avec la souris · molette sur le HUD pour changer la taille",
+  "toolhud.settings.enabled": "HUD activé",
+  "toolhud.settings.lore": "Afficher le lore",
+  "toolhud.settings.durability": "Afficher la durabilité",
+  "toolhud.settings.background": "Fond",
+  "toolhud.settings.scale": "Taille : %s",
+  "toolhud.settings.reset": "Réinitialiser"
+}
